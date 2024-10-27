@@ -1,0 +1,11 @@
+.player {
+    position: absolute;
+    bottom: 100px; /* Adjust to place the player below the array */
+    transition: left 0.5s ease;
+    font-size: 30px; /* Size for the player icon */
+    z-index: 10;
+}
+
+.player span {
+    display: inline-block;
+}
